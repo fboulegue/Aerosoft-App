@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Aerosoft' target in the 'Aerosoft' project
+//
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+#endif
