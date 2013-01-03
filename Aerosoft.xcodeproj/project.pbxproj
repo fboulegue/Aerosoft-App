@@ -38,6 +38,11 @@
 		8AB98F2215FDC49A00CD21E6 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AB98F2115FDC49A00CD21E6 /* MainViewController.m */; };
 		8AB98F2415FDC49A00CD21E6 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AB98F2315FDC49A00CD21E6 /* MainViewController.xib */; };
 		8AB98F2815FDC49A00CD21E6 /* verify.sh in Resources */ = {isa = PBXBuildFile; fileRef = 8AB98F2715FDC49A00CD21E6 /* verify.sh */; };
+		8AB98F2F15FDC4CC00CD21E6 /* www in Resources */ = {isa = PBXBuildFile; fileRef = 8AB98F2E15FDC4CC00CD21E6 /* www */; };
+		8AB98F3115FDC5C300CD21E6 /* Untitled.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AB98F3015FDC5C300CD21E6 /* Untitled.png */; };
+		8AB98F3315FDC5EA00CD21E6 /* Untitled1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AB98F3215FDC5EA00CD21E6 /* Untitled1.png */; };
+		8AB98F3515FDC5F300CD21E6 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AB98F3415FDC5F300CD21E6 /* Default.png */; };
+		8AB98F3715FDC5FA00CD21E6 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AB98F3615FDC5FA00CD21E6 /* Default@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,10 +60,10 @@
 		8AB98EEA15FDC49900CD21E6 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		8AB98EEC15FDC49900CD21E6 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		8AB98EEE15FDC49900CD21E6 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
-		8AB98EF215FDC49900CD21E6 /* Aerosoft-Info.plist */ = {isa = PBXFileReference; path = "Aerosoft-Info.plist"; sourceTree = "<group>"; };
+		8AB98EF215FDC49900CD21E6 /* Aerosoft-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Aerosoft-Info.plist"; sourceTree = "<group>"; };
 		8AB98EF415FDC49900CD21E6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8AB98EF615FDC49900CD21E6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		8AB98EF815FDC49900CD21E6 /* Aerosoft-Prefix.pch */ = {isa = PBXFileReference; path = "Aerosoft-Prefix.pch"; sourceTree = "<group>"; };
+		8AB98EF815FDC49900CD21E6 /* Aerosoft-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Aerosoft-Prefix.pch"; sourceTree = "<group>"; };
 		8AB98EF915FDC49900CD21E6 /* Cordova.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cordova.framework; path = /Users/Shared/Cordova/Frameworks/Cordova.framework; sourceTree = "<absolute>"; };
 		8AB98EFE15FDC49900CD21E6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Resources/en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		8AB98F0215FDC49900CD21E6 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = Resources/es.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -71,13 +76,18 @@
 		8AB98F1615FDC49900CD21E6 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "Resources/splash/Default@2x.png"; sourceTree = "<group>"; };
 		8AB98F1815FDC49900CD21E6 /* Capture.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Capture.bundle; path = Resources/Capture.bundle; sourceTree = "<group>"; };
 		8AB98F1A15FDC49900CD21E6 /* Cordova.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Cordova.plist; sourceTree = "<group>"; };
-		8AB98F1D15FDC49A00CD21E6 /* AppDelegate.h */ = {isa = PBXFileReference; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
+		8AB98F1D15FDC49A00CD21E6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
 		8AB98F1E15FDC49A00CD21E6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Classes/AppDelegate.m; sourceTree = "<group>"; };
-		8AB98F2015FDC49A00CD21E6 /* MainViewController.h */ = {isa = PBXFileReference; name = MainViewController.h; path = Classes/MainViewController.h; sourceTree = "<group>"; };
+		8AB98F2015FDC49A00CD21E6 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = Classes/MainViewController.h; sourceTree = "<group>"; };
 		8AB98F2115FDC49A00CD21E6 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = Classes/MainViewController.m; sourceTree = "<group>"; };
 		8AB98F2315FDC49A00CD21E6 /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MainViewController.xib; path = Classes/MainViewController.xib; sourceTree = "<group>"; };
-		8AB98F2615FDC49A00CD21E6 /* README */ = {isa = PBXFileReference; name = README; path = Plugins/README; sourceTree = "<group>"; };
+		8AB98F2615FDC49A00CD21E6 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; name = README; path = Plugins/README; sourceTree = "<group>"; };
 		8AB98F2715FDC49A00CD21E6 /* verify.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = verify.sh; sourceTree = "<group>"; };
+		8AB98F2E15FDC4CC00CD21E6 /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = "<group>"; };
+		8AB98F3015FDC5C300CD21E6 /* Untitled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Untitled.png; sourceTree = "<group>"; };
+		8AB98F3215FDC5EA00CD21E6 /* Untitled1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Untitled1.png; sourceTree = "<group>"; };
+		8AB98F3415FDC5F300CD21E6 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		8AB98F3615FDC5FA00CD21E6 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +125,11 @@
 		8AB98EC415FDC49900CD21E6 = {
 			isa = PBXGroup;
 			children = (
+				8AB98F3615FDC5FA00CD21E6 /* Default@2x.png */,
+				8AB98F3415FDC5F300CD21E6 /* Default.png */,
+				8AB98F3215FDC5EA00CD21E6 /* Untitled1.png */,
+				8AB98F3015FDC5C300CD21E6 /* Untitled.png */,
+				8AB98F2E15FDC4CC00CD21E6 /* www */,
 				8AB98EF015FDC49900CD21E6 /* Aerosoft */,
 				8AB98ED515FDC49900CD21E6 /* Frameworks */,
 				8AB98ED315FDC49900CD21E6 /* Products */,
@@ -330,6 +345,11 @@
 				8AB98F1B15FDC49900CD21E6 /* Cordova.plist in Resources */,
 				8AB98F2415FDC49A00CD21E6 /* MainViewController.xib in Resources */,
 				8AB98F2815FDC49A00CD21E6 /* verify.sh in Resources */,
+				8AB98F2F15FDC4CC00CD21E6 /* www in Resources */,
+				8AB98F3115FDC5C300CD21E6 /* Untitled.png in Resources */,
+				8AB98F3315FDC5EA00CD21E6 /* Untitled1.png in Resources */,
+				8AB98F3515FDC5F300CD21E6 /* Default.png in Resources */,
+				8AB98F3715FDC5FA00CD21E6 /* Default@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
